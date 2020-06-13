@@ -9,7 +9,7 @@ be prevented by using a randomized pivot.
 
 const partition = (arr, start, end) => {
     const pivot = arr[end];
-    let partitionIndex = start;   // Index of smaller element
+    let partitionIndex = start;
 
     for (let idx = start; idx < end; idx++) {
         if (pivot > arr[idx]) {

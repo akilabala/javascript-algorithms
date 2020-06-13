@@ -1,13 +1,4 @@
-// const getNumberOfDigits = (num) => {
-//     let numOfDigits = 0;
-//     while (num > 0) {
-//         num = Math.floor(num / 10);
-//         numOfDigits++;
-//     }
-//     return numOfDigits;
-// };
-//
-const findNumbers = (nums) => {
+const findNumbersWithEvenDigits = (nums) => {
     let total = 0;
     for (let i = 0; i < nums.length; i++) {
         if (nums[i].toString().length % 2 === 0) {
@@ -17,4 +8,4 @@ const findNumbers = (nums) => {
     return total;
 };
 
-console.log(findNumbers([12, 345, 2, 6, 7896]));
+console.log(findNumbersWithEvenDigits([12, 345, 2, 6, 7896]));
