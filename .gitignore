@@ -1,0 +1,30 @@
+# Cache
+*.eslintcache
+.cache
+
+# Editor
+.idea/
+.vscode/
+*.iml
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+
+# Mac
+.DS_Store
+
+# Node
+node_modules/
+.npmrc
+# Favor yarn.lock over package-lock.json
+package-lock.json
+
+# Output
+.tmp/
+dist/
+*.tsbuildinfo
+
+# Test and analysis
+coverage/
