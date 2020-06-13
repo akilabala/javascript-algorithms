@@ -4,5 +4,11 @@
   "description": "A repository of algorithms",
   "main": "index.js",
   "author": "Akila Balasubramanian",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
 }
